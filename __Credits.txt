@@ -1,0 +1,29 @@
+
+1 VERSIONINFO
+FILEVERSION 5,3,1,0
+PRODUCTVERSION 5,3,1,0
+FILEOS 0x4
+FILETYPE 0x1
+{
+BLOCK "StringFileInfo"
+{
+	BLOCK "040904B0"
+	{
+		VALUE "Comments", "GetFullPathName"
+		VALUE "CompanyName", "Elad Karako"
+		VALUE "FileDescription", "writes back to STDOUT the fully qualified path it got from you as an argument. It uses the Windows API so it should be fine with symbolic links, dots, spaces and other references you normally can not deal with in classic CMD"
+		VALUE "FileVersion", "5.3.1"
+		VALUE "InternalName", "GetFullPathName"
+		VALUE "LegalCopyright", "© Elad Karako Freeware "
+		VALUE "LegalTrademarks", "Elad Karako® GetFullPathName"
+		VALUE "OriginalFilename", "GetFullPathName.exe"
+		VALUE "ProductName", "Elad Karako® GetFullPathName"
+		VALUE "ProductVersion", "5.3.1"
+	}
+}
+
+BLOCK "VarFileInfo"
+{
+	VALUE "Translation", 0x0409 0x04B0
+}
+}
